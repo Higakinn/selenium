@@ -20,7 +20,7 @@ def execSearch(browser: webdriver):
 
    # キーワードの入力
     search_box = browser.find_element_by_name("q")
-    search_box.send_keys('docker selenium')
+    search_box.send_keys('python')
 
     # 検索実行
     search_box.submit()

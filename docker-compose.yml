@@ -27,7 +27,7 @@ python:
   container_name: 'python'
   links:
     - selenium-hub:hub
-  command: 'tail -f /dev/null'
+  tty: true
   working_dir: '/root/script/'
   volumes:
     - ./script/:/root/script/
